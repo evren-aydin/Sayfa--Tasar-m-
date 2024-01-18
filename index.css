@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+  .sayfa{
+    display: flex;
+  }
+  .sol{
+    flex: 1;
+
+  }
+  .orta{
+    flex: 5;
+    margin-top: 20vh;
+  }
+  .sag{
+    flex: 6;
+    margin-left: 5vw;
+
+  }
+
+  .sag img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  nav a{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+  }
+  nav{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  h1{
+    font-size: 4rem;
+  }
+  button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 50px 0;
+  }
+  p{
+    color: rgb(82, 81, 81);
+    margin: 0;
+  }
+  h4{
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  h1{
+    margin: 0;
+  }
+  .sol h4{
+    padding-left: 2rem;
+  }
